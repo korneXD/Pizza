@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = import.meta.env.VITE_API_URL;
+const url = "https://backend-pizza-urmj.onrender.com/";
 
 export const getProducts = async () => {
   const response = await axios.get(url + "/products");
